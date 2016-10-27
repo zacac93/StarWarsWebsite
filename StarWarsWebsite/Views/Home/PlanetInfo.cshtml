@@ -3,6 +3,14 @@
 }
 <h2 style="font-size: 80px; padding-top: 40px; color:white;"><b>@ViewBag.PlanetName</b></h2>
 <hr />
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">@Html.ActionLink("Home", "Index")</li>
+    <li class="breadcrumb-item">@Html.ActionLink("Planets", "Planets")</li>
+    <li class="breadcrumb-item active">@ViewBag.PlanetName</li>
+</ol>
+<hr />
+
 <!--Skeleton of Planet Info Sheet-->
 <!--Would be good to include button going back to Planets page-->
 <div class="row">

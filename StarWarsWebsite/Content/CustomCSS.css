@@ -90,3 +90,12 @@ a:hover {
    color: gray;
    text-decoration: none;
 }
+
+
+.breadcrumb {
+   background-color: black;
+}
+
+.breadcrumb a {
+   color: white;
+}
